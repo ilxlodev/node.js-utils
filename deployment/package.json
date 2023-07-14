@@ -22,6 +22,12 @@
   "engines": {
     "node": ">=16.20.1"
   },
+  "keywords": [
+    "deployment",
+    "deployment-automation",
+    "deployment-tool",
+    "nodejs-deploy"
+  ],
   "contributors": [
     {
       "name": "iLxlo_",
