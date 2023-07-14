@@ -1,0 +1,47 @@
+{
+  "type": "commonjs",
+  "name": "@ilxlo/node.js-utils",
+  "description": "Update your programs/integrations effortlessly and without complications",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ilxlo/node.js-utils",
+  "license": "Apache-2.0",
+  "main": "./src/index.js",
+  "bugs": {
+    "url": "https://github.com/ilxlo/node.js-utils/issues"
+  },
+  "author": {
+    "name": "iLxlo_",
+    "url": "https://github.com/ilxlo",
+    "email": "me@ilxlo.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilxlo/node.js-utils.git",
+    "directory": "packages/deployment"
+  },
+  "engines": {
+    "node": ">=16.20.1"
+  },
+  "contributors": [
+    {
+      "name": "iLxlo_",
+      "email": "me@ilxlo.dev",
+      "url": "https://ilxlo.dev"
+    }
+  ],
+  "fundings": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ilxlo"
+    }
+  ],
+  "scripts": {
+    "prestart": "node -e \"require('./src/index.js').prestart();\"",
+    "start": "node -e \"require('./src/index.js').start()\"",
+    "test": "node src/test/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.6.7"
+  }
+}
