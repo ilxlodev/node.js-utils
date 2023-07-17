@@ -61,7 +61,7 @@ Thank you to all the people who already contributed to this project!
 <!-- LICENSE -->
 ## License
 
-Apache 2.0. See the **[license](LICENSE.md)** for more information. Keep in mind that this only applies to the code in part of this repository. The code in the submodules has its own license, which you can find in the respective submodules.
+Apache 2.0. See the **[license](LICENSE)** for more information. Keep in mind that this only applies to the code in part of this repository. The code in the submodules has its own license, which you can find in the respective submodules.
 
 
 
