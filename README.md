@@ -16,11 +16,9 @@
   <p align="center">
     Collection of utility micropackages for Node.js.
     <br />
-    <a href="https://github.com/ilxlo/node.js-utils#getting-started"><strong>Getting Started »</strong></a>
+    <a href="https://github.com/ilxlo/node.js-utils#packages"><strong>Packages »</strong></a>
     <br />
     <br />
-    <a href="https://api.filobot.xyz">View Demo</a>
-    ·
     <a href="https://github.com/ilxlo/node.js-utils/issues">Report Bug</a> 
     ·
     <a href="https://github.com/ilxlo/node.js-utils/issues">Request Feature</a>
@@ -33,10 +31,10 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li><a href="#getting-started">Packages</a></li>
-    <li><a href="#usage">Contributing</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#license">Help</a></li>
+    <li><a href="#help">Help</a></li>
   </ol>
 </details>
 
@@ -49,10 +47,29 @@
 
 
 
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Please read our **[contributing guidelines](.github/CONTRIBUTING.md)** for details on the process for submitting pull requests to us. Also, read our **[code of conduct](.github/CODE_OF_CONDUCT.md)** for details on our code of conduct. This project adheres to an adapted version of the **[Semantic Versioning](.github/COMMIT_CONVENTION.md)** specification.
+
+Keep in mind that we reserve the right to accept or reject any pull request for any reason.
+
+Thank you to all the people who already contributed to this project!
+
+
+
 <!-- LICENSE -->
 ## License
 
-All rights reserved. See `LICENSE` for more information.
+Apache 2.0. See the **[license](LICENSE.md)** for more information. Keep in mind that this only applies to the code in part of this repository. The code in the submodules has its own license, which you can find in the respective submodules.
+
+
+
+<!-- HELP -->
+
+## Help
+
+If you don't understand how something works or need general help, open a thread in the **[Discussions](https://github.com/ilxlo/node.js-utils/discussions)** section of the repository. If you think that something is not working as it should and that it could be a bug, please open an **[issue](https://github.com/ilxlo/node.js-utils/issues/new/choose)**.
 
 
 
@@ -66,4 +83,4 @@ All rights reserved. See `LICENSE` for more information.
 [issues-shield]: https://img.shields.io/github/issues/ilxlo/node.js-utils.svg?style=for-the-badge
 [issues-url]: https://github.com/ilxlo/node.js-utils/issues
 [license-shield]: https://img.shields.io/github/license/ilxlo/node.js-utils.svg?style=for-the-badge
-[license-url]: https://github.com/ilxlo/node.js-utils/blob/master/LICENSE.md
+[license-url]: https://github.com/ilxlo/node.js-utils/blob/master/LICENSE
