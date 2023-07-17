@@ -11,7 +11,7 @@ const { exec } = require("node:child_process"); // Import the child_process modu
  */
 const pull = async function pull() {
 
-  return new Promise((resolve, reject) => {
+  return await new Promise((resolve, reject) => {
 
     exec(`cd ${process.env.GITHUB_WORKSPACE} && git pull origin ${process.env.GITHUB_REPOSITORY_BRANCH}`, (err, stdout, stderr) => {
 

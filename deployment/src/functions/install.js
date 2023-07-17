@@ -11,7 +11,7 @@ const { exec } = require("node:child_process"); // Import the child_process modu
  */
 const install = async function install() {
 
-  return new Promise((resolve, reject) => {
+  return await new Promise((resolve, reject) => {
 
     exec(`cd ${process.env.GITHUB_WORKSPACE} && npm ci`, (err, stdout, stderr) => {
 
@@ -23,7 +23,7 @@ const install = async function install() {
 
       }; // Check if there is any error.
 
-      if (process.env.DEBUG === "true") console.log(`The dependencies were installed successfully`); // Log the info
+      if (process.env.DEBUG === "true") console.log("The dependencies were installed successfully"); // Log the info
 
       return resolve(true); // Resolve the promise.
 

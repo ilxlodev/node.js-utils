@@ -48,6 +48,8 @@ const prestart = async function prestart() {
 
   if (process.env.DEBUG === "true") console.log("Finished the process of updating the deployment package"); // Log the info.
 
+  return true; // Return true.
+
 };
 
 module.exports = prestart;
