@@ -1,0 +1,31 @@
+name: Bug report
+description: Create a report to help us improve Node.js Utils
+labels: [ bug ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Please read the **[contributing guidelines](https://github.com/ilxlodev/node.js-utils/blob/main/CONTRIBUTING.md)** before creating an issue.**
+
+        **Please fill out the fields below to the best of your ability.**
+
+        Remember that we don't support outdated versions of packages. If you are using an outdated version, please upgrade first and see if the issue still exists.
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package affected
+      options:
+        - deployment
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Where did you find this bug? What did you expect to happen? What happened instead?
+      placeholder: |
+        Steps to reproduce with below code sample:
+        1. ...
+        2. ...
+    validations:
+      required: true
