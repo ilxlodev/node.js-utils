@@ -1,6 +1,6 @@
 {
   "type": "commonjs",
-  "name": "@ilxlo/node.js-utils",
+  "name": "@ilxlo/deployment",
   "description": "Update your programs/integrations effortlessly and without complications",
   "version": "1.0.0",
   "homepage": "https://github.com/ilxlo/node.js-utils",
