@@ -34,6 +34,18 @@ const prestart = async function prestart() {
 
   }; // Check if the process of updating the application was not successful.
 
+  if (process.env.DEBUG === "true") console.log("Starting the installation of the dependencies"); // Log the info.
+
+  const installed = await this.install(); // Install the dependencies.
+
+  if (!installed) {
+
+    if (process.env.DEBUG === "true") console.error("Failed to install the dependencies"); // Log the error.
+
+    return false; // Return false.
+
+  }; // Check if the dependencies were not installed.
+
   if (process.env.DEBUG === "true") console.log("Finished the process of updating the deployment package"); // Log the info.
 
 };
