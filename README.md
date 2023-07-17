@@ -50,7 +50,7 @@
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Please read our **[contributing guidelines](.github/CONTRIBUTING.md)** for details on the process for submitting pull requests to us. Also, read our **[code of conduct](.github/CODE_OF_CONDUCT.md)** for details on our code of conduct. This project adheres to an adapted version of the **[Semantic Versioning](.github/COMMIT_CONVENTION.md)** specification.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Please read our **[contributing guidelines](.github/CONTRIBUTING.md)** for details on the process for submitting pull requests to us. Also, read our **[code of conduct](.github/CODE_OF_CONDUCT.md)** for details on our code of conduct. This project adheres to an adapted version of the **[SemVer](.github/COMMIT_CONVENTION.md)** specification.
 
 Keep in mind that we reserve the right to accept or reject any pull request for any reason.
 
