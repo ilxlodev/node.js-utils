@@ -43,7 +43,7 @@
 <!-- PACKAGES -->
 ## Packages
 
-- **[@ilxlo/deployment](/deployment)**: Update your programs/integrations effortlessly and without complications.
+- **[@ilxlodev/deployment](/deployment)**: Update your programs/integrations effortlessly and without complications.
 
 
 
@@ -74,13 +74,13 @@ If you don't understand how something works or need general help, open a thread 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/ilxlo/node.js-utils.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ilxlodev/node.js-utils.svg?style=for-the-badge
 [contributors-url]: https://github.com/ilxlodev/node.js-utils/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ilxlo/node.js-utils.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/ilxlodev/node.js-utils.svg?style=for-the-badge
 [forks-url]: https://github.com/ilxlodev/node.js-utils/network/members
-[stars-shield]: https://img.shields.io/github/stars/ilxlo/node.js-utils.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/ilxlodev/node.js-utils.svg?style=for-the-badge
 [stars-url]: https://github.com/ilxlodev/node.js-utils/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ilxlo/node.js-utils.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/ilxlodev/node.js-utils.svg?style=for-the-badge
 [issues-url]: https://github.com/ilxlodev/node.js-utils/issues
-[license-shield]: https://img.shields.io/github/license/ilxlo/node.js-utils.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/ilxlodev/node.js-utils.svg?style=for-the-badge
 [license-url]: https://github.com/ilxlodev/node.js-utils/blob/master/LICENSE
