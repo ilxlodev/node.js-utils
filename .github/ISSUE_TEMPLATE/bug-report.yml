@@ -5,11 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Please read the **[contributing guidelines](https://github.com/ilxlodev/node.js-utils/blob/main/CONTRIBUTING.md)** before creating an issue.**
-
-        **Please fill out the fields below to the best of your ability.**
+        Please read the **[contributing guidelines](https://github.com/ilxlodev/node.js-utils/blob/main/CONTRIBUTING.md)** before creating an issue.
 
         Remember that we don't support outdated versions of packages. If you are using an outdated version, please upgrade first and see if the issue still exists.
+
+        Please fill out the fields below to the best of your ability.
   - type: dropdown
     id: package
     attributes:
