@@ -3,20 +3,20 @@
   "name": "@ilxlo/deployment",
   "description": "Update your programs/integrations effortlessly and without complications",
   "version": "1.0.0",
-  "homepage": "https://github.com/ilxlo/node.js-utils",
+  "homepage": "https://github.com/ilxlodev/node.js-utils",
   "license": "Apache-2.0",
   "main": "./src/index.js",
   "bugs": {
-    "url": "https://github.com/ilxlo/node.js-utils/issues"
+    "url": "https://github.com/ilxlodev/node.js-utils/issues"
   },
   "author": {
     "name": "iLxlo_",
-    "url": "https://github.com/ilxlo",
+    "url": "https://github.com/ilxlodev",
     "email": "me@ilxlo.dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ilxlo/node.js-utils.git",
+    "url": "https://github.com/ilxlodev/node.js-utils.git",
     "directory": "packages/deployment"
   },
   "engines": {
