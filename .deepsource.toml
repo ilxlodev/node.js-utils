@@ -1,0 +1,20 @@
+version = 1
+
+exclude_patterns = [
+  "*.json",
+  "*.md",
+  "*.example",
+  ".github/**",
+  ".vscode/**",
+  "node_modules/**",
+  ".deepsource.toml",
+  ".gitignore"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  style_guide = "google"
+  environment = ["nodejs"]
