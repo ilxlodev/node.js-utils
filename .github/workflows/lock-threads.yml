@@ -8,7 +8,7 @@ jobs:
     name: Lock closed issues/PRs
     runs-on: ubuntu-latest
     steps:
-      - uses: ilxlodev/lock-threads@master
+      - uses: ilxlodev/lock-threads@main
         with:
           github-token: ${{ github.token }}
           issue-inactive-days: 0
