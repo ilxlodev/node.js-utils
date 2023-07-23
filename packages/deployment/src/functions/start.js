@@ -49,6 +49,20 @@ const start = async function start() {
 
   if (process.env.DEBUG === "true") console.log("The application was updated successfully"); // Log the info.
 
+  if (process.env.DEBUG === "true") console.log("Starting the post deploy sequence"); // Log the info.
+
+  const postDeploy = await this.postDeploy(); // Run the post deploy sequence.
+
+  if (!postDeploy) {
+
+    if (process.env.DEBUG === "true") console.error("Failed to run the post deploy sequence"); // Log the error.
+
+    return false; // Return false.
+
+  }; // Check if the post deploy sequence was not run successfully.
+
+  if (process.env.DEBUG === "true") console.log("The post deploy sequence was run successfully"); // Log the info.
+
   return true; // Return true.
 
 };
