@@ -47,7 +47,7 @@
     "test": "node src/test/index.js"
   },
   "dependencies": {
-    "dotenv": "^16.4.1",
+    "dotenv": "^16.4.4",
     "node-fetch": "^2.6.7"
   }
 }
